@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#050315</color>
+    <color name="white">#fbfbfe</color>
+
+    <color name="red">#E91E1E</color>
+    <color name="green">#91D245</color>
+
+    <color name="gold">#FF9800</color>
+
+    <color name="primary">#2f27ce</color>
+    <color name="secondary">#dedcff</color>
+    <color name="accent">#433bff</color>
+
+    <color name="black_flushed">#66050315</color>
+    <color name="white_flushed">#66FBFBFE</color>
+
+    <color name="primary_flushed">#662F27CE</color>
+    <color name="secondary_flushed">#66DEDCFF</color>
+    <color name="accent_flushed">#66433BFF</color>
+
+</resources>

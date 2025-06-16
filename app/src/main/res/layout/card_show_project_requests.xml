@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="20dp"
+    android:layout_marginVertical="5dp"
+    android:layout_marginHorizontal="1.5dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="15dp">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txt_project_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/manrope_semibold"
+                android:text="₱10 Bigas Project"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_request_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_semibold"
+                android:text="5"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_project_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_semibold"
+                android:layout_marginStart="5dp"
+                android:text="Request/s Pendind"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+            </TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/txt_project_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/manrope_semibold"
+                android:text="Nationwide"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_semibold"
+                android:text="Budget: ₱"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+            </TextView>
+
+            <TextView
+                android:id="@+id/txt_project_budget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/manrope_semibold"
+                android:text="10,000,000.00"
+                android:textColor="@color/black"
+                android:textSize="14sp">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

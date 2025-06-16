@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    tools:context=".DialogsToActivities.AddCollaborators">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/manrope_bold"
+        android:text="Add Collaborators"
+        android:textColor="@color/black"
+        android:gravity="start"
+        android:layout_gravity="center|start"
+        android:textSize="18sp"
+        android:layout_margin="20dp">
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_collaborators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="select collaborators"
+        app:boxCornerRadiusBottomEnd="20dp"
+        app:boxCornerRadiusBottomStart="20dp"
+        app:boxCornerRadiusTopEnd="20dp"
+        app:boxCornerRadiusTopStart="20dp"
+        android:layout_marginHorizontal="20dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/edit_collaborators"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableRight="@drawable/baseline_arrow_drop_down_24"
+            android:singleLine="true"
+            android:editable="false"
+            android:inputType="none">
+        </AutoCompleteTextView>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="cancel"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_button"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="add"
+            android:textColor="@color/white"
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="10dp">
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+
+</LinearLayout>
