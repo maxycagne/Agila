@@ -16,9 +16,9 @@ To qualify for the National Level, each team must first secure championships at 
 
 ## 🏆 Codefest Journey
 
-- 🥇 [**Tagisan ng Talino Codefest 2025: Local Level** — MealPlanner] — _Champion_
-- 🥇 [**Tagisan ng Talino Codefest 2025: Cluster Level** — SkillSwap] — _Champion_
-- 🥇 [**Tagisan ng Talino Codefest 2025: National Level** — Agila] — _1st Place_
+- 🥇 **Tagisan ng Talino Codefest 2025: Local Level** — MealPlanner — _Champion_
+- 🥇 **Tagisan ng Talino Codefest 2025: Cluster Level** — SkillSwap — _Champion_
+- 🥇 **Tagisan ng Talino Codefest 2025: National Level** — Agila — _1st Place_
 
 ## 📌 Problem Statement
 
