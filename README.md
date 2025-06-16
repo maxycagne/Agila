@@ -1,6 +1,6 @@
 # Agila : 36-Hour Hackathon CodeFest Competition - 1st Place
 
-##📱 Description
+#📱 Description
 Agila is a mobile application developed by the Cluster 5 representatives of STI College Tarlac for the Tagisan ng Talino 2025: Codefest - National Level. The competition brought together the top developer teams from STI Colleges across the Philippines.
 
 Our team built Transpend in 36 hours during an on-site hackathon held at the training lounge of STI College Ortigas-Cainta. Throughout the event, participants were provided with free meals and accommodation in a dormitory located right beside the development lounge. Competitors were required to stay within the venue for the entire duration of the hackathon — creating a fully immersive and collaborative developer experience.
