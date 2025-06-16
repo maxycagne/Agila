@@ -9,9 +9,9 @@ To qualify for the National Level, each team must first secure championships at 
 
 ### Developers
 
-- [Ordiv Maverick Cagne  | Lead Developer
-- [Jethro Damaso |  UI/UX Design
-- [Clarence Garcia | Analyst 
+- Ordiv Maverick Cagne  | Lead Developer
+- Jethro Damaso |  UI/UX Design
+- Clarence Garcia | Analyst 
 
 ## Hackathon Theme
 
